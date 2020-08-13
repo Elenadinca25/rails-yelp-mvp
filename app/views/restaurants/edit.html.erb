@@ -1,0 +1,13 @@
+<h1>Your edit page</h1>
+
+<%= form_for @restaurant do |t| %>
+  <%= t.label :name %>
+  <%= t.text_field :name %>
+  <%= t.label :address %>
+  <%= t.text_field :address %>
+  <%= t.label :phone_number %>
+  <%= t.text_field :phone_number %>
+  <%= t.label :category %>
+  <%= t.text_field :category %>
+  <%= t.submit %>
+<% end %>
